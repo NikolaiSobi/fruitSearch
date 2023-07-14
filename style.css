@@ -1,0 +1,49 @@
+body {
+background-color: rgb(0, 0, 82);
+background-image: url("https://images.hdqwalls.com/download/lake-kawaguchi-in-japan-fc-1920x1080.jpg");
+}
+
+input {
+  text-indent: 6px;
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 10px;
+  height: 45px;
+  width: 602px;
+  font-size: 22px;
+  background-color: white;
+  list-style-type: none;
+  outline: none;
+  
+}
+
+.search-container {
+  position: fixed;
+  width: 606px;
+  top: 33%;
+  left: 33%;
+}
+  
+  
+.search-container .suggestions {
+   background-color: white;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   visibility: visible;
+}
+
+ul {
+  padding-left: 0;
+  margin-top: 0px;
+}
+
+ul li {
+  height: 40px;
+  font-size: 22px;
+  list-style-type: none;
+  text-indent: 10px;
+}
+ul li:hover {
+  background-color: rgb(228, 228, 228);
+  cursor: pointer;
+}
